@@ -95,6 +95,7 @@ The script auto-discovers the data in the kagglehub cache or under `data/raw/`.
 ## Repository layout
 
 ```
+notebooks/  Research notebook: brackets (full data) + recommender (test split)
 scripts/    The size-recommendation analysis (leak-free temporal split)
 results/    size_metrics.json (committed; the article's numbers)
 figures/    size_recommender.png (committed)
