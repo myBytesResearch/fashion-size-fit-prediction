@@ -1,0 +1,49 @@
+# Environment & secrets
+.env
+.env.local
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Build
+build/
+dist/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — raw competition data is NOT redistributable (Kaggle / DMC terms);
+# fetch it yourself via kagglehub. See DATA.md and LICENSES.md.
+data/raw/*
+!data/raw/.gitkeep
+*.txt
+!requirements.txt
+!**/.gitkeep
+*.parquet
+*.feather
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

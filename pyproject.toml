@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fashion-size-fit-prediction"
+version = "0.1.0"
+description = "Honest size-recommendation analysis for multi-size (bracketed) fashion orders on DMC 2016 — companion repository to the myBytes Research note on fashion returns prevention."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+authors = [
+    { name = "Guido Winger", email = "gwinger@mybytes.com" },
+]
+license = { text = "MIT" }
+keywords = [
+    "fashion", "size-recommendation", "size-bracketing", "returns",
+    "ecommerce", "honest-evaluation", "reproducibility", "mybytes-research",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Office/Business",
+]
+
+dependencies = [
+    "numpy>=1.26,<2.0",
+    "pandas>=2.2",
+    "matplotlib>=3.8",
+    "kagglehub>=0.3",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.5",
+    "black>=24.0",
+]
+
+[project.urls]
+"Homepage" = "https://mybytes.com/research/fashion-returns-prevention"
+"Source" = "https://github.com/myBytesResearch/fashion-size-fit-prediction"
+"Methodology" = "https://mybytes.com/research/fashion-returns-prevention"
+"Returns analysis" = "https://github.com/myBytesResearch/fashion-returns-analysis"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP", "B"]
+ignore = ["E501"]
+
+[tool.black]
+line-length = 100
+target-version = ["py311", "py312"]

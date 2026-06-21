@@ -1,0 +1,20 @@
+{
+  "dataset": "DMC 2016",
+  "test_returns_total": 300528,
+  "test_brackets": 42856,
+  "bracket_keep_dist": {
+    "0": 0.505,
+    "1": 0.405,
+    "2": 0.075,
+    "3": 0.012
+  },
+  "addressable_brackets_keep1": 17352,
+  "coverage_customer_history": 0.348,
+  "hit_rate_personalized": 0.288,
+  "hit_rate_article_baseline": 0.191,
+  "addressable_returns": 20607,
+  "addressable_share_of_all_returns": 0.0686,
+  "captured_personalized": 5974,
+  "reduction_personalized_pct_of_all_returns": 0.0199,
+  "reduction_baseline_pct_of_all_returns": 0.0132
+}
