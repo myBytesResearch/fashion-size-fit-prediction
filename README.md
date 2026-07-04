@@ -17,7 +17,7 @@
 **Companion repository to the myBytes Research note on fashion returns
 prevention — the size-recommendation lever, honestly measured.**
 
-→ Methodology article (German): https://mybytes.com/research/fashion-returns-prevention
+→ Methodology article (German): https://mybytes.com/research/retourenkosten-mode
 
 ---
 

@@ -42,9 +42,9 @@ dev = [
 ]
 
 [project.urls]
-"Homepage" = "https://mybytes.com/research/fashion-returns-prevention"
+"Homepage" = "https://mybytes.com/research/retourenkosten-mode"
 "Source" = "https://github.com/myBytesResearch/fashion-size-fit-prediction"
-"Methodology" = "https://mybytes.com/research/fashion-returns-prevention"
+"Methodology" = "https://mybytes.com/research/retourenkosten-mode"
 "Returns analysis" = "https://github.com/myBytesResearch/fashion-returns-analysis"
 
 [tool.ruff]
